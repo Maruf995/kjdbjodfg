@@ -1,4 +1,3 @@
-import random
 
 username = input("Введите свой ник: ")
 
