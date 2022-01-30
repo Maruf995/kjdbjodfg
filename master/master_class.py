@@ -1,3 +1,5 @@
+import random
+
 username = input("Введите свой ник: ")
 
 name = input("Введите свое имя: ")
@@ -17,7 +19,6 @@ while True:
         print("Доступ запрещен!")
     else:
         break
-
 
 while True:
     password1 = input("Введите пароль: ")
@@ -42,7 +43,7 @@ print(user)
 while True:
     username = input("Введите свой ник: ")
     password = input("Введите пароль: ")
-    if username != user["username"] or password1 != user ["password"]:
+    if username != user["username"] or password1 != user["password"]:
         print("Неверный логин или пароль!")
     else:
         print("Успешная авторизация <3")
